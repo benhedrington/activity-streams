@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+	<title>{{ ver }}/{{ name }} activity streams</title> 
+	<style type="text/css"> 
+	body {color: #FFFBFF;background-color:#79A0AF;font-family:"helvetica neue", "helvetica", arial, sans-serif;margin-left:80px;}
+	a, a:visited {color:#d9e4eb;}
+	h1#site-name{font-size:42px;margin-top:40px; margin-bottom: -0.2em;font-weight:normal;}
+	</style> 
+</head> 
+<body> 
+<h1>schema :: {{ ver }} :: {{ name }}</h1>
+<h4>{{ incpath }}</h4>
+<div>
+<!-- This is included from the static file -->
+{% include incpath %}
+<!-- /static file -->
+</div>
+</body> 
+</html> 

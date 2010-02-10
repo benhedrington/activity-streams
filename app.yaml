@@ -24,5 +24,8 @@ handlers:
 - url: /images
   static_dir: images
 
+- url: /schema/.*
+  script: schema.py
+
 - url: .*
   script: main.py
