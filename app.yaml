@@ -16,13 +16,13 @@ handlers:
   script: main.py
   
 - url: /js
-  static_dir: js
+  static_dir: static/js
 
 - url: /css
-  static_dir: css
+  static_dir: static/css
 
 - url: /images
-  static_dir: images
+  static_dir: static/images
 
 - url: /schema/.*
   script: schema.py
