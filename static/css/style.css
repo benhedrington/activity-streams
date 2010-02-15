@@ -1,0 +1,17 @@
+/*  
+Template: Activity Streams (html5)
+Template URI: http://activitystrea.ms/
+Description: Styles for Activity Streams website.
+Version: 1.0
+Author: Robert Hall
+*/
+
+html {
+	background-color: #eee;
+	height: 100%;
+}
+body {
+	font-size: 62.5%; /* base 10 */
+	background-color: #eee;
+	color: #333;
+}
